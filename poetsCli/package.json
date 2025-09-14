@@ -1,14 +1,14 @@
 {
-  "name": "bluestaqinterview",
+  "name": "poets-cli",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/script.js",
-    "dev": "ts-node poetsApi.ts"
+    "dev": "ts-node script.ts"
   },
-  "keywords": [],
-  "author": "",
+
+  "author": "Collin Blanchard",
   "license": "ISC",
   "description": "",
   "devDependencies": {

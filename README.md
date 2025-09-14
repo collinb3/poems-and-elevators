@@ -17,15 +17,17 @@ Elevator simulator written in Python using LOOK algorithm. Building has 10 floor
 * Building only has 1 elevator
 * Given behavior of LOOK algorithm, the elevator will remain on the last floor served until new request is received
 
-## Not implemented features
-* Floor additon mid service
+### Not implemented features
+* Floor addition mid service
   - Could allow elevator to stop on a floor if a new request is on the way to next scheduled stop
 * Multiple elevators
   - Multiple elevators could allow requests to be grouped
 
 
 ## Poems API CLI
-Typescript powered CLI that allows interface with the poetrydb API
+Typescript powered CLI that allows interface with the poetrydb API.
+
+Can be run via npm (npm start) or via node from /dist directory (node script.js)
 
 ```node
 Usage: node script.js [options]

@@ -7,7 +7,6 @@
     "start": "node dist/script.js",
     "dev": "ts-node script.ts"
   },
-
   "author": "Collin Blanchard",
   "license": "ISC",
   "description": "",

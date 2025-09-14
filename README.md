@@ -3,6 +3,14 @@
 ## Elevators
 Elevator simulator written in Python using LOOK algorithm. Building has 10 floors, can be changed in main function.
 
+This program is dockerized. It will automatically run the pre-programmed demo when run from the dockerfile/container
+
+```bash
+cd elevator
+docker build -t elevator-demo .
+docker run elevator-demo
+```
+
 ### Implemented features
 * LOOK algorithm
   - Elevator requests are served in ascending or descending order depending on first (sorted) option. Elevator continues in one direction until all requests in that direction are served, then reverses
